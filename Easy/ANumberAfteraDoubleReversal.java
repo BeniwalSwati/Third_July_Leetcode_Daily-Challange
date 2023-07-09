@@ -19,3 +19,11 @@ Given an integer num, reverse num to get reversed1, then reverse reversed1 to ge
   return true;
   }
 }
+
+//2nd solution
+
+class Solution {
+    public boolean isSameAfterReversals(int num) {
+        return (num%10!=0||num<10);
+    }
+}
